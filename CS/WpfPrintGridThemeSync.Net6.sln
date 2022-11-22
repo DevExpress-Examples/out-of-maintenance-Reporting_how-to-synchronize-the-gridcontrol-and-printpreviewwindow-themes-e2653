@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 16
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPrintGridThemeSync", "WpfPrintGridThemeSync.Net5.csproj", "{F8531CF2-EB28-41BE-929E-52319A51BE9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPrintGridThemeSync", "WpfPrintGridThemeSync.Net6.csproj", "{F8531CF2-EB28-41BE-929E-52319A51BE9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

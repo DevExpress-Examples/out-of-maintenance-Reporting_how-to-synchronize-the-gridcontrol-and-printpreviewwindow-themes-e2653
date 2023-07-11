@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.ComponentModel
 Imports System.Data
 Imports System.Windows

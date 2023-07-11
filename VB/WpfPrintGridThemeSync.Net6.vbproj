@@ -4,7 +4,8 @@
     <SupportedOSPlatformVersion>0.0</SupportedOSPlatformVersion>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>WpfPrintGridThemeSync</AssemblyName>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -30,18 +31,18 @@
     <AppDesigner Include="My Project\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Data" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Data.Desktop" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Mvvm" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Office.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Printing.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Export" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.DocumentViewer.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Printing" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Reporting" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Data" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.DocumentViewer.Core" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="23.1.*-*" />
   </ItemGroup>
 </Project>

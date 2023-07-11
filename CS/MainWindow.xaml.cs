@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Data;
 using System.Windows;
@@ -27,7 +27,6 @@ namespace WpfPrintGridThemeSync {
         }
     }
 
-    #region Data for the Grid
     public class TabletDataSet : DataSet {
         private const int m_columns = 5;
         private const int m_rows = 5;
@@ -62,7 +61,6 @@ namespace WpfPrintGridThemeSync {
             return ds;
         }
 
-        #region Disable Serialization for Tables and Relations
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public new DataTableCollection Tables {
             get { return base.Tables; }
@@ -72,8 +70,6 @@ namespace WpfPrintGridThemeSync {
         public new DataRelationCollection Relations {
             get { return base.Relations; }
         }
-        #endregion Disable Serialization for Tables and Relations
     }
-    #endregion Data for the Grid
 
 }
